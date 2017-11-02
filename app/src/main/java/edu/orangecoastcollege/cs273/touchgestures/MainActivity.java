@@ -170,6 +170,11 @@ implements GestureDetector.OnGestureListener, GestureDetector.OnDoubleTapListene
         return true;
     }
 
+
+    /**
+     * Clear all the text views and set all calculations to zero
+     * @param v the current context
+     */
     public void clearAll(View v) {
         gesturesLogTextView.setText("");
         singleTaps = 0;
